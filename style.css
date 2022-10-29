@@ -31,5 +31,218 @@
     font-size: 18px;
 }
 .header .container .right ul li a:hover {
-  color: rgb(0, 95, 247);
+color: rgb(152, 209, 255);
+}
+
+
+.banner .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #1f2937;
+    flex-wrap: wrap;
+}
+
+.banner .left {
+    width: 500px;
+}
+.banner .right {
+    width: 500px;
+}
+
+.banner .container .left h1 {
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 48px;
+}
+.banner .container .left p {
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 18px;
+margin-top: 10px;
+}
+.banner .container .left button {
+background-color: #3882f6;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+border: none;
+margin-top: 20px;
+}
+.banner .container .left button:hover {
+color: #1f2937;
+cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #5d718c;
+}
+
+.products .heading h1  {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+  
+    }
+
+.products .container  {
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-bottom: 70px;
+    
+    text-align: center;
+
+}
+
+.products .container .card {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+    padding: 24px;
+    color: white;
+  
+    margin-top: 50px;
+
+}
+.products .container .card:hover {
+    
+border: 2px solid rgb(211, 211, 211);
+background-color: rgb(152, 209, 255);
+border-radius: 20px ;
+color: white;
+
+}
+
+
+
+.products .container .card img {
+
+width: 200px;
+height: 200px;
+border-radius: 20px;
+
+}
+.products .container .card p {
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+padding-top: 10px;
+
+}
+.products .container .card a {
+    color: #425061;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.products .container .card a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.testimonials .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #e2e2e2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.testimonials .container p {
+    font-size: 36px;
+    font-weight: light;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #353535;
+}
+.testimonials .container .imgg {
+  width: 300px;
+  height: 270px;
+  background-color: #ababab;
+  margin-right: 100px;
+ 
+  
+}
+.alert {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.alert .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+background-color: #3882f6;
+padding-top: 70px;
+padding-bottom: 70px;
+padding-left: 70px;
+padding-right: 70px;
+width: 1000px;
+border-radius: 50px;
+}
+.alert .container .left .first_para{
+
+color: white;
+font-size: 28px;
+font-weight: 900;
+font-family: Arial, Helvetica, sans-serif;
+}
+.alert .container .left .second_para{
+
+color: rgb(231, 231, 231);
+font-size: 22px;
+font-weight: light;
+font-family: Arial, Helvetica, sans-serif;
+}
+.alert .container .right button {
+    background-color: #ffffff;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #3882f6;
+font-size: 18px;
+border-radius: 20px;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+footer .container p {
+ color: white;
+ font-weight: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+footer .container p:hover {
+ color:rgb(152, 209, 255);
+
+ 
 }
